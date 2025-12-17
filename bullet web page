@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hook & Line Tackle Co.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Hook & Line Tackle Co.</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#" class="cart">Cart (0)</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Everything You Need to Land the Big One</h2>
+    <p>Premium rods, reels, lures & gear for serious anglers</p>
+    <button>Shop Now</button>
+</section>
+
+<section class="products">
+    <h2>Featured Gear</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="images/lure.jpg" alt="Spinnerbait">
+            <h3>ProStrike Spinnerbait</h3>
+            <p>$6.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/reel.jpg" alt="Fishing Reel">
+            <h3>DeepWater Reel 3000</h3>
+            <p>$89.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/rod.jpg" alt="Fishing Rod">
+            <h3>CarbonFlex Rod</h3>
+            <p>$129.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Hook & Line Tackle Co.</p>
+</footer>
+
+</body>
+</html>
